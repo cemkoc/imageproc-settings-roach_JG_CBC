@@ -8,6 +8,7 @@
 #ifndef SETTINGS_H
 #define	SETTINGS_H
 
+#define IDENT_STR "BIOMIMETICS-ROACH;AMS-ENC;"
 
 #ifdef	__cplusplus
 extern "C" {
