@@ -8,7 +8,10 @@
 #ifndef SETTINGS_H
 #define	SETTINGS_H
 
-#define IDENT_STR "BIOMIMETICS-ROACH;AMS-ENC;"
+#define IDENT_STR "turner-ip2.5;AMS-ENC;"
+
+#define ROWS 1
+#define COLS 8  /* for Josh Skin Proc */
 
 #ifdef	__cplusplus
 extern "C" {
