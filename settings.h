@@ -1,4 +1,4 @@
-/* 
+/*
  * File:   settings.h
  * Author: ronf
  *
@@ -20,13 +20,16 @@ extern "C" {
 #define RONF
 // ronf robot radio addresses
 #ifdef RONF
-#define RADIO_MY_CHAN 0x13
+#define RADIO_MY_CHAN 0x13   //ron's
 #define RADIO_CHANNEL 0x13 // to work with either style of channel name
-#define RADIO_PAN_ID 0x2060
+
+#define RADIO_PAN_ID 0x2060   // ron's
+
 //Hard code in destination address (basestation) for now, update to be dynamic later
-#define RADIO_DST_ADDR 0x2011
+#define RADIO_DST_ADDR 0x2011 //ron's
 #define RADIO_DEST_ADDR RADIO_DST_ADDR
-#define RADIO_SRC_ADDR 0x2052
+#define RADIO_SRC_ADDR 0x2052 //ron's
+// #define RADIO_SRC_ADDR 0x3002    //cem's
 #endif
 
 #define RADIO_TXPQ_MAX_SIZE   10
